@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18441C3C1DC1C17C0067069A /* NSCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18441C3A1DC1C17C0067069A /* NSCollectionViewController.swift */; };
+		18441C3D1DC1C17C0067069A /* NSCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18441C3B1DC1C17C0067069A /* NSCollectionViewController.xib */; };
 		185517861DBEF8AB000E394B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185517851DBEF8AB000E394B /* AppDelegate.swift */; };
 		185517881DBEF8AB000E394B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185517871DBEF8AB000E394B /* ViewController.swift */; };
 		1855178A1DBEF8AB000E394B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185517891DBEF8AB000E394B /* Assets.xcassets */; };
 		1855178D1DBEF8AB000E394B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1855178B1DBEF8AB000E394B /* Main.storyboard */; };
 		185517981DBEF8AB000E394B /* CodeSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185517971DBEF8AB000E394B /* CodeSolverTests.swift */; };
 		185517A31DBEF8AB000E394B /* CodeSolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185517A21DBEF8AB000E394B /* CodeSolverUITests.swift */; };
+		185517B11DBEF951000E394B /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185517B01DBEF951000E394B /* Keys.swift */; };
+		189C78B61DF116CD00BC3DC6 /* WhiteColorMenuItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C78B51DF116CD00BC3DC6 /* WhiteColorMenuItemDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18441C3A1DC1C17C0067069A /* NSCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCollectionViewController.swift; sourceTree = "<group>"; };
+		18441C3B1DC1C17C0067069A /* NSCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCollectionViewController.xib; sourceTree = "<group>"; };
 		185517821DBEF8AB000E394B /* CodeSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185517851DBEF8AB000E394B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185517871DBEF8AB000E394B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +51,8 @@
 		1855179E1DBEF8AB000E394B /* CodeSolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSolverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185517A21DBEF8AB000E394B /* CodeSolverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSolverUITests.swift; sourceTree = "<group>"; };
 		185517A41DBEF8AB000E394B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185517B01DBEF951000E394B /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		189C78B51DF116CD00BC3DC6 /* WhiteColorMenuItemDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteColorMenuItemDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 				185517871DBEF8AB000E394B /* ViewController.swift */,
 				185517891DBEF8AB000E394B /* Assets.xcassets */,
 				1855178B1DBEF8AB000E394B /* Main.storyboard */,
+				18441C3A1DC1C17C0067069A /* NSCollectionViewController.swift */,
+				18441C3B1DC1C17C0067069A /* NSCollectionViewController.xib */,
 				1855178E1DBEF8AB000E394B /* Info.plist */,
+				185517B01DBEF951000E394B /* Keys.swift */,
+				189C78B51DF116CD00BC3DC6 /* WhiteColorMenuItemDelegate.swift */,
 			);
 			path = CodeSolver;
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1855178A1DBEF8AB000E394B /* Assets.xcassets in Resources */,
+				18441C3D1DC1C17C0067069A /* NSCollectionViewController.xib in Resources */,
 				1855178D1DBEF8AB000E394B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189C78B61DF116CD00BC3DC6 /* WhiteColorMenuItemDelegate.swift in Sources */,
 				185517881DBEF8AB000E394B /* ViewController.swift in Sources */,
+				185517B11DBEF951000E394B /* Keys.swift in Sources */,
+				18441C3C1DC1C17C0067069A /* NSCollectionViewController.swift in Sources */,
 				185517861DBEF8AB000E394B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +420,7 @@
 				DEVELOPMENT_TEAM = 9H8WYW7YZ6;
 				INFOPLIST_FILE = CodeSolver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = Findaldudu.CodeSolver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -418,6 +435,7 @@
 				DEVELOPMENT_TEAM = 9H8WYW7YZ6;
 				INFOPLIST_FILE = CodeSolver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = Findaldudu.CodeSolver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -505,6 +523,7 @@
 				185517A91DBEF8AB000E394B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185517AA1DBEF8AB000E394B /* Build configuration list for PBXNativeTarget "CodeSolverTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +532,7 @@
 				185517AC1DBEF8AB000E394B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185517AD1DBEF8AB000E394B /* Build configuration list for PBXNativeTarget "CodeSolverUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +541,7 @@
 				185517AF1DBEF8AB000E394B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
